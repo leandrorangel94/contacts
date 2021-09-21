@@ -9,7 +9,7 @@ export class ContactDetailService {
   constructor(private http: HttpClient) {}
 
   formData: ContactDetail = new ContactDetail();
-  readonly baseURL = 'http://localhost:58320/api/ContactDetail';
+  readonly baseURL = 'http://localhost:5000/api/ContactDetail';
   list: ContactDetail[];
 
   postContactDetail() {
