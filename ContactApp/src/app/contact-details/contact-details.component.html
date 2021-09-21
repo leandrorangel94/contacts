@@ -1,0 +1,43 @@
+<div class="jumbotron py-3">
+  <h1 class="display-4 text-center">Lista de Contatos</h1>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <app-contact-detail-form></app-contact-detail-form>
+  </div>
+  <div class="col-md-6">
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th>Nome</th>
+          <th>Telefone</th>
+          <th>Email</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let contact of service.list">
+          <td>{{ contact.name }}</td>
+          <td>{{ contact.telephone }}</td>
+          <td>{{ contact.email }}</td>
+          <td>
+            <i
+              class="fas fa-edit text-warning"
+              style="cursor: pointer"
+              (click)="populateForm(contact)"
+            ></i>
+          </td>
+          <td>
+            <i
+              class="far fa-trash-alt fa-lg text-danger"
+              style="cursor: pointer"
+              (click)="onDelete(contact.contactDetailId)"
+            ></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
