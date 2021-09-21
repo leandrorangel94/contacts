@@ -44,7 +44,7 @@ Para clonar e rodar essa aplicação, você precisará do [Git](https://git-scm.
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/leandrorangel94/bytebank.git
+$ git clone https://github.com/leandrorangel94/lista-contatos-app.git
 
 # Entre dentro do repositório (front-end)
 $ cd ContactApp
