@@ -1,4 +1,4 @@
-<h1 align="center">lista-contatos-app</h1>
+<h1 align="center">contacts</h1>
 
 <p align="center">
 |&nbsp;&nbsp;&nbsp;<a href="#memo-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
